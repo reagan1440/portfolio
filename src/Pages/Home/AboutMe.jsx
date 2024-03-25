@@ -6,21 +6,26 @@ export default function AboutMe() {
         </div>
         <div className="hero--section--content--box about--section--box">
           <div className="hero--section--content">
-            <p className="section--title">About</p>
             <h1 className="skills-section--heading">About Me</h1>
             <p className="hero--section-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-              recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-              tempora numquam sint odit optio.
+              Web Developer with over 22 web applications developed. Skilled in front-end and back-end technologies to deliver responsive and high-performing digital solutions. Experienced in utilizing RESTful APIs for seamless data integration and management. Collaborative team player with a strong focus on meeting project requirements and delivering exceptional user experiences.
             </p>
-            <p className="hero--section-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-              recusandae?
-            </p>
+            <div className="hero--section-description">
+              <h1 className="section--title">Education</h1>
+              <p>
+                <strong>Spartanburg Methodist College</strong> — Computer Science<br />
+                August 2022-2023<br />
+                Student Athlete<br />
+                Relevant coursework: Intro to Computer Science, Algorithmic Design
+              </p>
+              <p>
+                <strong>University of Miami</strong> — Full Stack Web Development Bootcamp (EdX)<br />
+                August 2023-2024
+              </p>
+            </div>
           </div>
         </div>
       </section>
     );
   }
+  

@@ -220,10 +220,18 @@ h2 {
 }
 .hero--section--title--color {
   color: var(--primary);
+  font-size: 22px;
+}
+.section--title{
+  color: var(--heading-color);
+  font-size: 45.667px;
+  font-weight: 700;
+  line-height: 90px;
+  align-self: stretch;
 }
 .hero--section-description {
   color: var(--darkblue);
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 36px;
 }

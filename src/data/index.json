@@ -2,26 +2,74 @@
     "skills": [
         {
             "id": "1",
-            "src": "./img/product-chain-1.png",
-            "title": "Front-End",
+            "src": "./img/jsbadge80.png",
+            "title": "JavaScript",
             "description": "Lorem ipsum dolor sit amet,"
         },
         {
             "id": "2",
-            "src": "./img/tag-1.png",
-            "title": "Back-End",
+            "src": "./img/html.png",
+            "title": "HTML",
             "description": "Lorem ipsum dolor sit amet,"
         },
         {
             "id": "3",
-            "src": "./img/feather-pen-2.png",
-            "title": "Design",
+            "src": "./img/css.png",
+            "title": "CSS",
             "description": "Lorem ipsum dolor sit amet,"
         },
         {
             "id": "4",
-            "src": "./img/feather-pen-1.png",
-            "title": "Web development",
+            "src": "./img/reactst.jpg",
+            "title": "React",
+            "description": "Lorem ipsum dolor sit amet,"
+        },
+        {
+            "id": "5",
+            "src": "./img/vuejs.png",
+            "title": "Vue.js",
+            "description": "Lorem ipsum dolor sit amet,"
+        },
+        {
+            "id": "6",
+            "src": "./img/angular.png",
+            "title": "Angular",
+            "description": "Lorem ipsum dolor sit amet,"
+        },
+        {
+            "id": "7",
+            "src": "./img/bootstrap.png",
+            "title": "Bootstrap",
+            "description": "Lorem ipsum dolor sit amet,"
+        },
+        {
+            "id": "8",
+            "src": "./img/nodejs.png",
+            "title": "Node.js",
+            "description": "Lorem ipsum dolor sit amet,"
+        },
+        {
+            "id": "9",
+            "src": "./img/express-js.png",
+            "title": "Express.js",
+            "description": "Lorem ipsum dolor sit amet,"
+        },
+        {
+            "id": "10",
+            "src": "./img/mongo.png",
+            "title": "MongoDB",
+            "description": "Lorem ipsum dolor sit amet,"
+        },
+        {
+            "id": "11",
+            "src": "./img/mysql2.png",
+            "title": "MySQL",
+            "description": "Lorem ipsum dolor sit amet,"
+        },
+        {
+            "id": "12",
+            "src": "./img/api.png",
+            "title": "API's",
             "description": "Lorem ipsum dolor sit amet,"
         }
     ],

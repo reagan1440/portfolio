@@ -10,8 +10,14 @@ export default function HeroSection() {
               Developer
             </h1>
             <p className="hero--section-description">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              <br /> Dolorum, quas. Amet soluta assumenda cum?
+              <strong>Technical Skills:</strong><br />
+              <strong>Programming Languages:</strong> JavaScript, HTML, CSS<br />
+              <strong>Front-End Development:</strong> React.js, Vue.js, Angular, Bootstrap<br />
+              <strong>Back-End Development:</strong> Node.js, Express.js, RESTful APIs, State, PWA<br />
+              <strong>Concepts:</strong> MVC (model-view-controller), ORM (object-relational-mapping), OOP (object oriented programming)<br />
+              <strong>Database Management:</strong> MongoDB, MySQL<br />
+              <strong>Version Control:</strong> Git, GitHub, GitLab<br />
+              <strong>Other Tools:</strong> Visual Studio Code, npm, Heroku
             </p>
           </div>
           <button className="btn btn-primary">Get In Touch</button>
@@ -22,3 +28,4 @@ export default function HeroSection() {
       </section>
     );
   }
+  
