@@ -50,5 +50,32 @@
             "link": "view in browser"
         }
       
+    ],
+    "testimonial": [
+        {
+            "id": "1",
+            "count": "5",
+            "src": "./img/placeholder",
+            "description": "Lorem ipsum dolor sit amet,",
+            "author_name": "Reagan Lowe", 
+            "author_designation": "view in browser"
+        },
+        {
+            "id": "2",
+            "count": "5",
+            "src": "./img/placeholder",
+            "description": "Lorem ipsum dolor sit amet,",
+            "author_name": "Reagan Lowe", 
+            "author_designation": "view in browser"
+        },
+        {
+            "id": "3",
+            "count": "5",
+            "src": "./img/placeholder",
+            "description": "Lorem ipsum dolor sit amet,",
+            "author_name": "Reagan Lowe", 
+            "author_designation": "view in browser"
+        }
+      
     ]
 }
