@@ -354,3 +354,16 @@ color: var(--darkblue);
   font-weight: 400px;
   line-height: 32px;
 }
+.about--section {
+  display: grid;
+  padding: 133.3px 85.3px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 114.6px;
+  align-items: center;
+}
+
+.about--section--img > img {
+  width: 100%;
+  height: 100%;
+}
+
