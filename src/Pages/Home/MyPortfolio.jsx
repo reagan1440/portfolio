@@ -35,12 +35,14 @@ export default function MyPortfolio () {
               <img src={item.src} alt="Placeholder" />
             </div>
             <div className="portfolio--section--card--content">
-              <div>
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
+
               </div>
-              <p className="text-sm portfolio--link">
-                {item.link}
+              <p>
+              <button className="text-sm portfolio--link" onClick={() => window.open(item.link, "_blank")}>
+  Visit Website
+</button>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -57,7 +59,6 @@ export default function MyPortfolio () {
                   />
                 </svg>
               </p>
-            </div>
           </div>
         ))}
       </div>

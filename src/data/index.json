@@ -4,73 +4,73 @@
             "id": "1",
             "src": "./img/jsbadge80.png",
             "title": "JavaScript",
-            "description": "Lorem ipsum dolor sit amet,"
+            "description": "Skilled in JavaScript for dynamic web development and interactivity"
         },
         {
             "id": "2",
             "src": "./img/html.png",
             "title": "HTML",
-            "description": "Lorem ipsum dolor sit amet,"
+            "description": "Proficient in HTML for creating structured and semantic web content."
         },
         {
             "id": "3",
             "src": "./img/css.png",
             "title": "CSS",
-            "description": "Lorem ipsum dolor sit amet,"
+            "description": "Skilled in CSS for styling and enhancing the presentation of web pages."
         },
         {
             "id": "4",
             "src": "./img/reactst.jpg",
             "title": "React",
-            "description": "Lorem ipsum dolor sit amet,"
+            "description": "Skilled in React.js for interactive UIs, state management with Hooks, and backend API integration."
         },
         {
             "id": "5",
             "src": "./img/vuejs.png",
             "title": "Vue.js",
-            "description": "Lorem ipsum dolor sit amet,"
+            "description": "Experienced in Vue.js for building reactive user interfaces."
         },
         {
             "id": "6",
             "src": "./img/angular.png",
             "title": "Angular",
-            "description": "Lorem ipsum dolor sit amet,"
+            "description": "Familiar with Angular for developing robust web applications"
         },
         {
             "id": "7",
             "src": "./img/bootstrap.png",
             "title": "Bootstrap",
-            "description": "Lorem ipsum dolor sit amet,"
+            "description": "Proficient in Bootstrap for responsive and streamlined web design."
         },
         {
             "id": "8",
             "src": "./img/nodejs.png",
             "title": "Node.js",
-            "description": "Lorem ipsum dolor sit amet,"
+            "description": "Skilled in Node.js for server-side JavaScript development."
         },
         {
             "id": "9",
             "src": "./img/express-js.png",
             "title": "Express.js",
-            "description": "Lorem ipsum dolor sit amet,"
+            "description": "Experienced in Express.js for building scalable web applications."
         },
         {
             "id": "10",
             "src": "./img/mongo.png",
             "title": "MongoDB",
-            "description": "Lorem ipsum dolor sit amet,"
+            "description": "Knowledgeable in MongoDB for NoSQL database management."
         },
         {
             "id": "11",
             "src": "./img/mysql2.png",
             "title": "MySQL",
-            "description": "Lorem ipsum dolor sit amet,"
+            "description": "Skilled in MySQL for relational database management."
         },
         {
             "id": "12",
             "src": "./img/api.png",
             "title": "API's",
-            "description": "Lorem ipsum dolor sit amet,"
+            "description": "Experienced in integrating with various APIs for data exchange."
         }
     ],
 
@@ -85,19 +85,46 @@
           },          
         {
             "id": "2",
-            "src": "./img/placeholder",
-            "title": "project2",
+            "src": "./img/Screenshot (23).png",
+            "title": "Note Taker",
             "description": "Lorem ipsum dolor sit amet,",
-            "link": "view in browser"
+            "link": "https://reagansprofessional-note-taker-9e9db5e2619c.herokuapp.com/"
         },
         {
             "id": "3",
-            "src": "./img/placeholder",
-            "title": "project 3",
+            "src": "./img/Screenshot (24).png",
+            "title": "Password Generator",
             "description": "Lorem ipsum dolor sit amet,",
-            "link": "view in browser"
+            "link": "https://reagan1440.github.io/password-generator/"
+        },
+        {
+            "id": "4",
+            "src": "./img/Demo.gif",
+            "title": "Cryptos and Comics",
+            "description": "Lorem ipsum dolor sit amet,",
+            "link": "https://dannysaravia001.github.io/Cryptos-and-Comics/"
+        },
+        {
+            "id": "5",
+            "src": "./img/Screenshot (25).png",
+            "title": "Roomeo",
+            "description": "Lorem ipsum dolor sit amet,",
+            "link": "https://roomeo-54bd0cc57e2b.herokuapp.com/"
+        },
+        {
+            "id": "6",
+            "src": "./img/Screenshot (26).png",
+            "title": "Horiseon",
+            "description": "Lorem ipsum dolor sit amet,",
+            "link": "https://reagan1440.github.io/code-refractor/"
+        },
+        {
+            "id": "8",
+            "src": "./img/Screenshot (27).png",
+            "title": "Work Day Scheduler",
+            "description": "Lorem ipsum dolor sit amet,",
+            "link": "https://reagan1440.github.io/work-calendar/"
         }
-      
     ],
     "testimonial": [
         {
