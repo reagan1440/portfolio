@@ -80,50 +80,57 @@
             "id": "1",
             "src": "./img/Screenshot (19).png",
             "title": "Weather Dashboard",
-            "description": "Lorem ipsum dolor sit amet,",
+            "description": "Using an API to create a 5day weather forecast, inlcuding humidity, windspeed, and uv index you can look at the coditions of any city of your choice",
             "link": "https://reagan1440.github.io/weather-search/"
           },          
         {
             "id": "2",
             "src": "./img/Screenshot (23).png",
             "title": "Note Taker",
-            "description": "Lorem ipsum dolor sit amet,",
+            "description": "Using express this notetaker application will save, delete, and allow you to edit notes",
             "link": "https://reagansprofessional-note-taker-9e9db5e2619c.herokuapp.com/"
         },
         {
             "id": "3",
             "src": "./img/Screenshot (24).png",
             "title": "Password Generator",
-            "description": "Lorem ipsum dolor sit amet,",
+            "description": "This application allows the user to randomly generate a password and choose if they wish to include capital letters, lowercase, numbers, or special characters",
             "link": "https://reagan1440.github.io/password-generator/"
         },
         {
             "id": "4",
             "src": "./img/Demo.gif",
             "title": "Cryptos and Comics",
-            "description": "Lorem ipsum dolor sit amet,",
+            "description": "I contributed to a team project creating a cryptocurrency tracker app that also features random jokes. Combining real-time crypto data with humor, our app offers an engaging and entertaining user experience.",
             "link": "https://dannysaravia001.github.io/Cryptos-and-Comics/"
         },
         {
             "id": "5",
             "src": "./img/Screenshot (25).png",
             "title": "Roomeo",
-            "description": "Lorem ipsum dolor sit amet,",
+            "description": "This appliction developed by my team and I, is a roomate matching website designed to find you the perfect roomate based in Miami, simply sign up, fill out our detailed survey, and find your perfect roomate",
             "link": "https://roomeo-54bd0cc57e2b.herokuapp.com/"
         },
         {
             "id": "6",
             "src": "./img/Screenshot (26).png",
             "title": "Horiseon",
-            "description": "Lorem ipsum dolor sit amet,",
+            "description": "This website was refractored to fit accessibility guidlines",
             "link": "https://reagan1440.github.io/code-refractor/"
         },
         {
             "id": "8",
             "src": "./img/Screenshot (27).png",
             "title": "Work Day Scheduler",
-            "description": "Lorem ipsum dolor sit amet,",
+            "description": "This calendar application allows a user to save events for each hour of a typical working day 9am-5pm",
             "link": "https://reagan1440.github.io/work-calendar/"
+        },
+        {
+            "id": "9",
+            "src": "./img/Screenshot (35).png",
+            "title": "Tech Blog",
+            "description": "This application is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",
+            "link": "https://stark-coast-30123-1fdb6d955941.herokuapp.com/"
         }
     ],
     "testimonial": [

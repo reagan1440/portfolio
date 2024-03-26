@@ -18,7 +18,16 @@ export default function HeroSection() {
             delivering exceptional user experiences.
           </p>
           {/* Button positioned at the bottom-right corner */}
-          <button className="btn btn-primary btn-bottom-right">Get In Touch</button>
+          <button
+  className="btn btn-primary btn-bottom-right"
+  onClick={() => {
+    window.location.href = 'mailto:reaganrl14@gmail.com';
+  }}
+>
+  Get In Touch
+</button>
+
+          
         </div>
       </div>
       <div className="hero--section--img">

@@ -2,8 +2,10 @@ import { Link } from "react-scroll";
 import React from "react";
 // import reactLogo from "./img/react.PNG";
 
+
 function Footer() {
   return (
+    <section id="Footer">
     <footer className="footer--container">
       <div className="footer--link--container">
         <div className="footer--items">
@@ -101,6 +103,31 @@ function Footer() {
               </a>
             </li>
           </ul>
+          <ul>
+  <li>
+    <a
+      href="mailto:reaganrl14@gmail.com"
+      className="navbar--content"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="32" 
+        height="32"
+        viewBox="0 0 512 512"
+        fill="none"
+      >
+        <path
+          fill="black"
+          d="M496 78.8571C496 64.5074 482.956 53.7143 467.818 53.7143H44.182C29.044 53.7143 16 64.5074 16 78.8571V433.143C16 447.493 29.044 458.286 44.182 458.286H467.818C482.956 458.286 496 447.493 496 433.143V78.8571ZM467.818 96L256 239.644L44.182 96H467.818ZM467.818 416H44.182C41.8782 416 40 414.075 40 411.786V96.2857L252.977 249.315C257.411 252.83 264.6 252.83 269.034 249.315L472 96.2857V411.786C472 414.075 470.122 416 467.818 416Z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+
+
         </div>
       </div>
       <hr className="divider" />
@@ -151,6 +178,7 @@ function Footer() {
         </div>
       </div>
     </footer>
+    </section>
   );
 }
 
