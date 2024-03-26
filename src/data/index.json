@@ -4,73 +4,73 @@
             "id": "1",
             "src": "./img/jsbadge80.png",
             "title": "JavaScript",
-            "description": "Skilled in JavaScript for dynamic web development and interactivity"
+            "description": ""
         },
         {
             "id": "2",
             "src": "./img/html.png",
             "title": "HTML",
-            "description": "Proficient in HTML for creating structured and semantic web content."
+            "description": ""
         },
         {
             "id": "3",
             "src": "./img/css.png",
             "title": "CSS",
-            "description": "Skilled in CSS for styling and enhancing the presentation of web pages."
+            "description": ""
         },
         {
             "id": "4",
             "src": "./img/reactst.jpg",
             "title": "React",
-            "description": "Skilled in React.js for interactive UIs, state management with Hooks, and backend API integration."
+            "description": ""
         },
         {
             "id": "5",
             "src": "./img/vuejs.png",
             "title": "Vue.js",
-            "description": "Experienced in Vue.js for building reactive user interfaces."
+            "description": ""
         },
         {
             "id": "6",
             "src": "./img/angular.png",
             "title": "Angular",
-            "description": "Familiar with Angular for developing robust web applications"
+            "description": ""
         },
         {
             "id": "7",
             "src": "./img/bootstrap.png",
             "title": "Bootstrap",
-            "description": "Proficient in Bootstrap for responsive and streamlined web design."
+            "description": ""
         },
         {
             "id": "8",
             "src": "./img/nodejs.png",
             "title": "Node.js",
-            "description": "Skilled in Node.js for server-side JavaScript development."
+            "description": ""
         },
         {
             "id": "9",
             "src": "./img/express-js.png",
             "title": "Express.js",
-            "description": "Experienced in Express.js for building scalable web applications."
+            "description": ""
         },
         {
             "id": "10",
             "src": "./img/mongo.png",
             "title": "MongoDB",
-            "description": "Knowledgeable in MongoDB for NoSQL database management."
+            "description": ""
         },
         {
             "id": "11",
             "src": "./img/mysql2.png",
             "title": "MySQL",
-            "description": "Skilled in MySQL for relational database management."
+            "description": ""
         },
         {
             "id": "12",
             "src": "./img/api.png",
             "title": "API's",
-            "description": "Experienced in integrating with various APIs for data exchange."
+            "description": ""
         }
     ],
 

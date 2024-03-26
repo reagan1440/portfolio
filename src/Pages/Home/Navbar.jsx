@@ -100,7 +100,7 @@ function Navbar() {
               to="testimonial"
               className="navbar--content"
             >
-              Testimonials
+              Freelance
             </Link>
           </li>
         </ul>
@@ -113,7 +113,7 @@ function Navbar() {
         offset={-70}
         duration={500}
         to="Contact"
-        className="btn btn-outline-primary"
+        className="btn-btn-outline-primary"
       >
         Contact Me
       </Link>

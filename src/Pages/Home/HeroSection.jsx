@@ -1,24 +1,31 @@
 export default function HeroSection() {
-    return (
-      <section id="heroSection" className="hero--section">
-        <div className="hero--section--content--box">
-          <div className="hero--section--content">
-            <p className="section--title">Hey, I'm Reagan Lowe</p>
-            <h1 className="hero--section--title">
-              <span className="hero--section-title--color">Full Stack</span>{" "}
-              <br />
-              Developer
-            </h1>
-            <p className="hero--section-description">
-                <p> Web Developer with over 22 web applications developed. Skilled in front-end and back-end technologies to deliver responsive and high-performing digital solutions. Experienced in utilizing RESTful APIs for seamless data integration and management. Collaborative team player with a strong focus on meeting project requirements and delivering exceptional user experiences.</p>
-            </p>
-          </div>
-          <button className="btn btn-primary">Get In Touch</button>
+  return (
+    <section id="heroSection" className="hero--section">
+      <div className="hero--section--content--box">
+        <div className="hero--section--content">
+          <p className="section--title">Hey, I'm Reagan Lowe</p>
+          <h1 className="hero--section--title">
+            <span className="hero--section-title--color">Full Stack</span>{" "}
+            <br />
+            Developer
+          </h1>
+          <p className="hero--section-description">
+            Web Developer with over 22 applications developed, 23 If you count this one! Skilled in
+            front-end and back-end technologies to deliver responsive and
+            high-performing digital solutions. Experienced in utilizing RESTful
+            APIs for seamless data integration and management. Collaborative
+            team player with a strong focus on meeting project requirements and
+            delivering exceptional user experiences.
+          </p>
+          {/* Button positioned at the bottom-right corner */}
+          <button className="btn btn-primary btn-bottom-right">Get In Touch</button>
         </div>
-        <div className="hero--section--img">
-          <img src="./img/pf img.PNG" alt="Hero Section" />
-        </div>
-      </section>
-    );
-  }
+      </div>
+      <div className="hero--section--img">
+        <img src="./img/computeranimation.gif" alt="Hero Section" />
+      </div>
+    </section>
+  );
+}
+
   

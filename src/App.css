@@ -1,5 +1,4 @@
 /* Global CSS */
-
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -17,7 +16,7 @@ p {
   margin: 0;
 }
 :root {
-  --primary: #5e3bee;
+  --primary: #291f52;
   --heading-color: #282938;
   --bg-shade: #f5fcff;
   --github: #e62872;
@@ -67,8 +66,8 @@ p {
 }
 .btn-github {
   color: var(--white);
-  background-color: var(--github);
-  border: var(--github);
+  background-color: #a07143;
+  border:  #a07143;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -77,8 +76,32 @@ p {
   gap: 16px;
 }
 .btn-github:hover {
-  color: var(--github);
+  color:  #a07143;
   background-color: var(--white);
+}
+.btn-btn-outline-primary{
+background-color: black;
+color: white;
+font-family: "Roboto";
+display: inline-block;
+padding: 14px 32px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+border-radius: 4px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+transition: background-color 0.5s;
+-webkit-transition: background-color 0.5s;
+-moz-transition: background-color 0.5s;
+-ms-transition: background-color 0.5s;
+-o-transition: background-color 0.5s;
 }
 /* Global CSS Ends */
 /* Main Headings */
@@ -131,7 +154,7 @@ h2 {
 /* Section Titles */
 /* Skills & About Me */
 .section--title {
-  color: var(--heading-color);
+  color: black;
   font-size: 21px;
   text-align: center;
   font-style: normal;
@@ -147,6 +170,12 @@ h2 {
   font-weight: 600;
   line-height: 24px;
 }
+.section--heading {
+  text-align: center;
+  font-weight: 400px;
+  font-size: 54px;
+  padding-top: 20px;
+}
 /* Section Titles Ends */
 
 /* Navbar Style Start */
@@ -155,12 +184,16 @@ h2 {
   justify-content: space-between;
   align-items: center;
   padding: 15px 85.333px;
-  background: var(--white);
+  background: #a07143;
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+}
+.navbar--items {
+font-weight: 200px;
+font-size: 22px;
 }
 .navbar--items > ul {
   list-style: none;
@@ -174,15 +207,15 @@ h2 {
 }
 /* Navbar Content */
 .navbar--content {
-  color: var(--darkblue);
-  font-size: 16px;
+  color: #484d67;
+  font-size: 21px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   cursor: pointer;
 }
 .navbar--active-content {
-  color: var(--primary);
+  color: black;
 }
 /* Navbar Styler Ends */
 
@@ -194,7 +227,13 @@ h2 {
   align-items: center;
   justify-content: space-between;
   gap: 32px;
-  background-color: var(--bg-shade);
+  background-color: #242735;
+}
+.btn-bottom-right {
+  position: absolute;
+  bottom: 110px;
+  right: 65px;
+
 }
 .hero--section--content-box {
   display: flex;
@@ -212,25 +251,27 @@ h2 {
   margin-top: 21.333px;
 }
 .hero--section--title {
-  color: var(--heading-color);
+  color: #41495b;
   font-size: 74.667px;
   font-weight: 700;
   line-height: 90px;
   align-self: stretch;
 }
 .hero--section--title--color {
-  color: var(--primary);
+  color: var(--black);
   font-size: 22px;
 }
 .section--title{
-  color: var(--heading-color);
+  color: #41495b;
+  border-color: white;
   font-size: 45.667px;
   font-weight: 700;
   line-height: 90px;
   align-self: stretch;
+  padding-top: 22px;
 }
 .hero--section-description {
-  color: var(--darkblue);
+  color: #a07143;
   font-size: 18px;
   font-weight: 400;
   line-height: 36px;
@@ -253,6 +294,9 @@ h2 {
   align-items: flex-start;
   gap: 106.667px;
 }
+.section--title {
+  color: black
+}
 .skills--section--heading {
   color: var(--heading-color);
   font-size: 64px;
@@ -268,14 +312,15 @@ h2 {
 }
 .skills--section--card {
   display: flex;
-  padding: 32px;
+  padding: 28px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
   flex: 1 0 0;
-  border-radius: 10.6px;
-  background: var(--bg-shade);
-  min-height: 250px;
+  border-radius: 8px;
+  background: #73576e;
+  min-height: 145px;
+  max-height: 145px;
 }
 .skills--section--card:hover {
   border-bottom: 4px solid var(--primary);
@@ -293,6 +338,12 @@ h2 {
   background: #fff;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
+.skills-section--heading {
+  color: #a13057;
+}
+.about--section {
+  background-color: #0d0d0d;
+}
 .skills--section--card--content {
   display: flex;
   flex-direction: column;
@@ -305,6 +356,9 @@ h2 {
   font-size: 32px;
   font-weight: 700;
   line-height: 45px;
+}
+.skills--section{
+  background-color: #43455f;
 }
 .skills--section--description {
   color: var(--black);
@@ -324,18 +378,21 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
 }
 .about--section--img > img {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 }
-
+.educationimg{
+  display: flex;
+}
 
 /* Portfolio */
 .portfolio--section {
   display: flex;
   padding: 112px 85px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center; /* Align center for better presentation */
   gap: 80px;
+  background-color: #43455f;;
 }
 .portfolio--container-box {
   display: flex;
@@ -347,49 +404,73 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 21.3px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 .portfolio--section--container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 42.6px;
+  flex-wrap: wrap;
+  justify-content: center; /* Center cards horizontally */
+  gap: 40px; /* Adjust spacing between cards */
   width: 100%;
+  background-color: #575a75;
+  padding-top: 40px;
 }
 .portfolio--section--img {
-  border-radius: 8px;
-  width: 100%;
+  border-radius: 12px 12px 0 0; /* Adjust border radius */
+  overflow: hidden; /* Hide overflowing content */
+  height: 180px;
 }
 .portfolio--section--img > img {
   width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 12px 12px 0 0; /* Adjust border radius */
 }
 .portfolio--section--card {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  flex: 1 0 0;
-  background: rgb(125, 151, 194);
-  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+  align-items: stretch; /* Stretch content */
+  gap: 20px;
+  background: hsl(232,17%,17%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 300px;
+  overflow: hidden;
 }
+.text-sm-portfolio--link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px; 
+  border: 2px solid var(--primary); 
+  border-radius: 6px;
+  font-size: 0.875rem; 
+  font-weight: 600;
+  color: var(--primary); 
+  transition: all 0.3s ease; 
+  background-color: #73576e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.text-sm-portfolio--link:hover {
+  background-color: var(--primary); 
+  color: #fff; 
+}
+
 .portfolio--section--card--content {
-  display: grid;
-  padding: 22px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  align-self: stretch;
-  justify-content: center;
-  grid-template-columns:  repeat(auto-fit, minmax(250px, 1fr));
-  overflow-x: hidden;
-  max-width: 80%;
-  
+  padding: 20px;
 }
 .portfolio--section--title {
-  color: var(--heading-color);
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: white;
+}
+.text-md {
+  font-size: 1rem;
+  color: white;
 }
 .portfolio--link {
   text-decoration: none;
@@ -400,7 +481,7 @@ h2 {
   font-weight: 600;
 }
 .portfolio--section--card:hover path {
-  stroke: #006b6a;
+  stroke: black;
 }
 .testimonial--section {
   display: flex;
@@ -474,6 +555,12 @@ h2 {
   flex: 1 0 0;
   width: 100%;
 }
+.contact--section {
+  background-color: #242735;
+}
+.text-lg {
+  color: black;
+}
 .contact--input {
   display: flex;
   font-family: "Roboto";
@@ -483,6 +570,7 @@ h2 {
   border-radius: 8px;
   border: 1.333px solid var(--primary);
   background: var(--white);
+  color: black;
 }
 select {
   -webkit-appearance: none;
