@@ -10,14 +10,7 @@ export default function HeroSection() {
               Developer
             </h1>
             <p className="hero--section-description">
-              <strong>Technical Skills:</strong><br />
-              <strong>Programming Languages:</strong> JavaScript, HTML, CSS<br />
-              <strong>Front-End Development:</strong> React.js, Vue.js, Angular, Bootstrap<br />
-              <strong>Back-End Development:</strong> Node.js, Express.js, RESTful APIs, State, PWA<br />
-              <strong>Concepts:</strong> MVC (model-view-controller), ORM (object-relational-mapping), OOP (object oriented programming)<br />
-              <strong>Database Management:</strong> MongoDB, MySQL<br />
-              <strong>Version Control:</strong> Git, GitHub, GitLab<br />
-              <strong>Other Tools:</strong> Visual Studio Code, npm, Heroku
+                <p> Web Developer with over 22 web applications developed. Skilled in front-end and back-end technologies to deliver responsive and high-performing digital solutions. Experienced in utilizing RESTful APIs for seamless data integration and management. Collaborative team player with a strong focus on meeting project requirements and delivering exceptional user experiences.</p>
             </p>
           </div>
           <button className="btn btn-primary">Get In Touch</button>

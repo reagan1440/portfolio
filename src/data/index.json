@@ -78,11 +78,11 @@
     "portfolio": [
         {
             "id": "1",
-            "src": "./img/placeholder",
-            "title": "project1",
+            "src": "./img/Screenshot (19).png",
+            "title": "Weather Dashboard",
             "description": "Lorem ipsum dolor sit amet,",
-            "link": "view in browser"
-        },
+            "link": "https://reagan1440.github.io/weather-search/"
+          },          
         {
             "id": "2",
             "src": "./img/placeholder",
