@@ -18,7 +18,7 @@ npm create vite and npm i
 just open the link to the deployed page
 
 ## Contribution
-This is my favorite project ive worked on so far but also the hardest! I used tutoring, my study group and these sources to help me over come any challenegs i came across while building this 
+This is my favorite project ive worked on so far but also the hardest! I used tutoring, my study group and these sources to help me get ideas and over come any challenegs i came across while building this 
 
 https://www.youtube.com/watch?v=I2UBjN5ER4s
 https://www.youtube.com/watch?v=x7mwVn2z3Sk
@@ -35,3 +35,12 @@ This project is licensed under the MIT license.
 
 ## Questions
 For any questions, please contact [reagan1440](https://github.com/reagan1440) via email at reaganrl14@gmail.com.
+
+## deployed page 
+https://reagan-lowe-portfolio.netlify.app/
+
+## repo
+https://github.com/reagan1440/portfolio
+
+## webpage picture 
+![Alt text](<public/img/Screenshot (43).png>)
