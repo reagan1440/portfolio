@@ -80,14 +80,14 @@
             "id": "1",
             "src": "./img/Screenshot (19).png",
             "title": "Weather Dashboard",
-            "description": "Using an API to create a 5day weather forecast, inlcuding humidity, windspeed, and uv index you can look at the coditions of any city of your choice",
+            "description": "Using an API this application will create a 5 day weather forecast, inlcuding humidity, windspeed, and uv index you can look at the coditions of any city of your choice, a log will also be kept of recent searches so you can easily access them again",
             "link": "https://reagan1440.github.io/weather-search/"
           },          
         {
             "id": "2",
             "src": "./img/Screenshot (23).png",
             "title": "Note Taker",
-            "description": "Using express this notetaker application will save, delete, and allow you to edit notes",
+            "description": "This application uses an Express.js back end and will save and retrieve note data from a JSON file.",
             "link": "https://reagansprofessional-note-taker-9e9db5e2619c.herokuapp.com/"
         },
         {
