@@ -4,6 +4,9 @@ export default function HeroSection() {
       <div className="hero--section--content--box">
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm Reagan Lowe</p>
+          {/* <div class="picture--of--me">
+        <img src="path/to/your/image.jpg" alt="Reagan's Image" />
+      </div> */}
           <h1 className="hero--section--title">
             <span className="hero--section-title--color">Full Stack</span>{" "}
             <br />
@@ -27,8 +30,7 @@ export default function HeroSection() {
   Get In Touch
 </button>
 
-          
-        </div>
+</div>
       </div>
       <div className="hero--section--img">
         <img src="./img/computeranimation.gif" alt="Hero Section" />

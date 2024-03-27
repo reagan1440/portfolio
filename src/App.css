@@ -190,6 +190,8 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
+  position: fixed;
+  z-index: 1000;
 }
 .navbar--items {
 font-weight: 200px;
@@ -249,9 +251,16 @@ font-size: 22px;
 .hero--section--content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 21.333px;
 }
+/* .picture--of--me {
+  margin-left: 90px;
+}
+.picture--of--me img {
+  width: 100px;
+  height: auto;
+} */
 .hero--section--content--box > button {
   margin-top: 21.333px;
 }
@@ -469,6 +478,10 @@ font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 1px;
   position: relative;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .text-sm-portfolio--link:hover {
