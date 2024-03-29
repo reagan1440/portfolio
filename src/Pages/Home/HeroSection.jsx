@@ -13,12 +13,10 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section-description">
-            Web Developer with over 22 applications developed, 23 If you count this one! Skilled in
-            front-end and back-end technologies to deliver responsive and
-            high-performing digital solutions. Experienced in utilizing RESTful
-            APIs for seamless data integration and management. Collaborative
-            team player with a strong focus on meeting project requirements and
-            delivering exceptional user experiences.
+       
+Web Developer with over 22 applications developed, 23 If you count this one! Skilled in front-end and back-end technologies to deliver responsive and high-performing digital solutions. Experienced in utilizing APIs for data integration and management. Collaborative team player with a strong focus on meeting project requirements and delivering exceptional user experiences. <br></br>
+
+In my free time, I enjoy playing soccer and working in freelance web development projects. I find joy in staying active in the field and continuously improving my skills in creating new projects.
           </p>
           {/* Button positioned at the bottom-right corner */}
           <button

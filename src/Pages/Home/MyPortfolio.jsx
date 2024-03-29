@@ -25,7 +25,7 @@ export default function MyPortfolio () {
   </svg>
   Visit My GitHub
 </a>
-<h2 className="section--heading">My Portfolio</h2>
+<h2 className="section--heading">My Recent Projects</h2>
 
 </div>
 
