@@ -80,7 +80,7 @@
             "id": "10",
             "src": "./img/Screenshot (44).png",
             "title": "Echos of Astra",
-            "description": "Meet Astra our AI dream interpretor, Astra allows you to save past interpretations and learns to recoginze patterns within your dreams to give a more accurate intrepation everytime you journal one. Developed collaboratively with my team, Astra represents our collective effort to enhance your dream analysis experience. ",
+            "description": "Meet Astra our AI dream interpreter, Astra allows you to save past interpretations and learns to recognize patterns within your dreams to give a more accurate interpretation everytime you journal one. Developed collaboratively with my team, Astra represents our collective effort to enhance your dream analysis experience. ",
             "link": "https://echoes-of-astra.onrender.com/dreamInterpretation"
           },  
           {
@@ -127,17 +127,17 @@
         },
         {
             "id": "6",
-            "src": "./img/Screenshot (26).png",
-            "title": "Horiseon",
-            "description": "This website was refractored to fit accessibility guidlines",
-            "link": "https://reagan1440.github.io/code-refractor/"
+            "src": "./img/Screenshot (47).png",
+            "title": "E-commerce Database",
+            "description": "This is a back end database for an e-commerce site. using an Express.js API to use Sequelize to interact with a MySQL database. Github repo is linked below",
+            "link": "https://github.com/reagan1440/ORM-E_Commerce?tab=readme-ov-file"
         },
         {
             "id": "8",
-            "src": "./img/Screenshot (27).png",
-            "title": "Work Day Scheduler",
-            "description": "This calendar application allows a user to save events for each hour of a typical working day 9am-5pm",
-            "link": "https://reagan1440.github.io/work-calendar/"
+            "src": "./img/Screenshot (39).png",
+            "title": "JATE text editor",
+            "description": "Jate text editor is a single-page application that meets the progressive web application criteria. It features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.",
+            "link": "https://jate-text-editor-f9ma.onrender.com/"
         }
     ],
     "testimonial": [

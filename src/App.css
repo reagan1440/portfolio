@@ -242,6 +242,35 @@ font-size: 22px;
   right: 65px;
 
 }
+.btn-resume {
+  position: absolute;
+  bottom: 70px;
+  right: 65px;
+  font-family: "Roboto";
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-resume:hover {
+  color: var(--primary); /* Change text color on hover */
+}
+.btn-resume a:hover {
+  color: var(--primary)
+}
+.btn-resume a {
+  color: white;
+}
+
 .hero--section--content-box {
   display: flex;
   flex-direction: column;
@@ -254,13 +283,11 @@ font-size: 22px;
   align-items: center;
   gap: 21.333px;
 }
-/* .picture--of--me {
-  margin-left: 90px;
-}
 .picture--of--me img {
   width: 100px;
   height: auto;
-} */
+  margin-left: 350px;
+} 
 .hero--section--content--box > button {
   margin-top: 21.333px;
 }
@@ -875,3 +902,18 @@ input[type="checkbox"] {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .btn-bottom-right {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn-resume {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+  }
+}
