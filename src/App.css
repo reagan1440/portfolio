@@ -224,6 +224,8 @@ font-size: 22px;
   /* education img!!!! */
   display: flex;
 }
+
+
 /* Navbar Styler Ends */
 
 /* Hero Section Style */
@@ -915,5 +917,10 @@ input[type="checkbox"] {
     position: relative;
     bottom: 20px;
     right: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .skills--section--container {
+    grid-template-columns: repeat(2, 1fr) !important;
   }
 }
